@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Status.registerSubclass()
         
         Parse.enableLocalDatastore()
-        Parse.setApplicationId("?", clientKey: "?")
+        Parse.setApplicationId(PARSE_APPLICATION_ID, clientKey: PARSE_CLIENT_KEY)
 
         return true
     }

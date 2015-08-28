@@ -42,6 +42,7 @@
 		E709ABAF1B90142400F3238E /* testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testTests.swift; sourceTree = "<group>"; };
 		E709ABB91B9014D400F3238E /* test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "test-Bridging-Header.h"; sourceTree = "<group>"; };
 		E709ABBD1B9015B400F3238E /* Status.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		E749AA741B90223900ECCA2A /* Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		EBF54BEF8A4A0851A6B6F93A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -104,6 +105,7 @@
 		E709AB961B90142400F3238E /* test */ = {
 			isa = PBXGroup;
 			children = (
+				E749AA741B90223900ECCA2A /* Config.xcconfig */,
 				E709AB991B90142400F3238E /* AppDelegate.swift */,
 				E709AB9B1B90142400F3238E /* ViewController.swift */,
 				E709AB9D1B90142400F3238E /* Main.storyboard */,
@@ -322,6 +324,7 @@
 /* Begin XCBuildConfiguration section */
 		E709ABB11B90142400F3238E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E749AA741B90223900ECCA2A /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
